@@ -64,3 +64,24 @@ print(squares)
 print(min(squares))
 print(max(squares))
 print(sum(squares))
+squares = [value**2  for value in range(1,11)]
+print(squares)
+numbers = [value for value in range(1,10000000)]
+print(sum(numbers))
+odd_numbers = [value**3 for value in range(1,10)]
+print(odd_numbers)
+players = ['charles', 'martina', 'michael', 'florence', 'eli']
+print(players[-3:])
+my_foods = ['pizza', 'falafel', 'carrot cake']
+friend_foods = my_foods[:]
+friend_foods.append('cannoli')
+print(my_foods)
+print(friend_foods)
+my_foods = friend_foods
+print(my_foods)
+simple_foods = ('rice', 'beans', 'yam', 'plantain', 'egg')
+for food in simple_foods:
+    print(food)
+simple_foods = ('rice', 'bread', 'yogurt', 'plantain', 'egg')
+for food in simple_foods:
+    print(food)
